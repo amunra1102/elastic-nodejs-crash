@@ -1,0 +1,21 @@
+{
+  "name": "elastic-nodejs-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.13.0",
+    "dotenv": "^10.0.0",
+    "elasticsearch": "^16.7.2",
+    "express": "^4.17.1"
+  }
+}
